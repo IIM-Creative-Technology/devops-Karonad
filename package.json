@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "serve dist/StatsDeFootFront",
-    "build": "ng build",
+    "build": "ng build --configuration=production",
     "test": "ng test --no-watch --no-progress --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
     "e2e": "ng e2e"
