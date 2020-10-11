@@ -8,7 +8,9 @@ import { DataService } from './services/data.service';
 })
 export class AppComponent {
 
-  data = [{name}]
+  title = 'StatsDeFootFront';
+
+  data = [{name}];
 
   constructor(private dataService: DataService){}
 
