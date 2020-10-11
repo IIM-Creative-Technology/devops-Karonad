@@ -4,7 +4,8 @@ J'ai utilisé un back en nodejs, voici le repo: https://github.com/Karonad/Stats
 
 J'ai utilisé 3 workflows pour le front et 2 pour le back.
 
-FRONT.
+FRONT
+
 Pre-prod/Prod(master)
 1. Build du projet
 2. Vérification du Linter pour déterminer si le code est bien conforme aux règles instaurés
@@ -16,7 +17,8 @@ b. URL prod: https://iim-a4-qf-stats2foot-frontprod.herokuapp.com/
 Pull-request
 1. Exécution des étapes précendentes sauf le deploy
 
-BACK.
+BACK
+
 Pre-prod/Prod(master)
 1. Build du pojet
 2. Tests afin de vérifier si le projet ne contient pas de problèmes définis
