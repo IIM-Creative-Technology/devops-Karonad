@@ -12,7 +12,7 @@ A.Pre-prod/Prod(master):
 4. Mise en production sur Heroku 
 a. URL pre-prod: https://iim-a4-qf-stats2foot-front.herokuapp.com/
 b. URL prod: https://iim-a4-qf-stats2foot-frontprod.herokuapp.com/
-5. Envoi d'un Email pour valider que le projet est déployer ( Cet ajout va rater car gmail n'accepte pas bien l'envoi c'est-à-dire qu'il faut que je disable le captcha pour que ca fonctionne, on peux le voir dans les actions du back )
+5. Envoi d'un Email pour valider que le projet est déployer ( Cet ajout va rater car gmail n'accepte pas bien l'envoi c'est-à-dire qu'il faut que je disable le captcha pour que ca fonctionne, on peux le voir dans les actions du back).
 B.Pull-request: Exécution des étapes précendentes sauf le deploy
 
 Pour le back:
