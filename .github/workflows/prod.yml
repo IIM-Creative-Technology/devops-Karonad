@@ -2,8 +2,7 @@ name: Deploy Front to Heroku PROD
 on:
   push:
     branches: master
-  pull_request:
-    branches: master
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -19,7 +18,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - run: npm run build --if-present
+    - run: npm run build --if-present  --configuration=production
     # Lint
     - name: eslint
       uses: icrawl/action-eslint@v1
