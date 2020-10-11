@@ -8,7 +8,7 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
-      providers: [
+      imports: [
         HttpClientModule
       ]
     }).compileComponents();
