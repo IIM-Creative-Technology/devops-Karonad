@@ -2,8 +2,7 @@ name: Deploy Front to Heroku PROD
 on:
   push:
     branches: master
-  pull_request:
-    branches: master
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
