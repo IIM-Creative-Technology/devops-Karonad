@@ -2,6 +2,8 @@
 
 J'ai utilisé un back en nodejs, voici le repo: https://github.com/Karonad/StatsDeFootBack
 
+Le projet consiste juste a récupérer les données d'une bdd mongo grâce à une API en nodejs et un service dans angular.
+
 J'ai utilisé 3 workflows pour le front et 2 pour le back.
 
 Pour le front
